@@ -10,6 +10,9 @@ export default {
   argTypes: {
     children: { type: 'string' },
   },
+  parameters: {
+    layout: 'fullscreen',
+  },
 } as Meta<TextProps>;
 
 export const Default: StoryFn<TextProps> = (args) => {
